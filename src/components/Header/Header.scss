@@ -1,0 +1,50 @@
+.header-container{
+   
+    width: 100%;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+
+
+    .div-container{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button{
+            background-color: transparent;
+            border: none;
+            color: #E0E0E0;
+            cursor: pointer;
+            
+            .spanItem{
+                background-color: #27ae60;
+                padding: 2px 5px;
+                border-radius: 5px;
+            }
+        }
+
+
+    }
+}
+
+@media(min-width: 768px) {
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 0;
+
+        .div-container{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+}

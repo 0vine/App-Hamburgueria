@@ -1,0 +1,42 @@
+.liMain {
+   width: 95%;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+
+   .divList {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .divAjuste{
+         display: flex;
+         flex-direction: column;
+         
+         gap: 10px;
+      }
+
+      p{
+         color: #27ae60;
+      }
+
+      img {
+         width: 84px;
+         height: 84px;
+         object-fit: cover;
+         background-color: #E0E0E0;
+         border-radius: 8px;
+
+      }
+   }
+
+   .buttonRem{
+      background-color: transparent;
+      border: none;
+      color: #828282;
+      cursor: pointer;
+   }
+
+}
